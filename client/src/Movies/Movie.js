@@ -28,11 +28,12 @@ function Movie({ addToSavedList, setMovieList, movieList }) {
   const deleteMovie = () => {
     axios
     .delete(`http://localhost:5000/api/movies/${params.id}`)
-    .then(() => {
+    .then(res => {
+      console.log(res)
       setMovieList(movieList.filter(item => item.id !== movie.id))
       push('/') //push to the main movie page
     })
-    .catch(err => err.message, 'Error in DELETE axios call in Movie.js')
+    .catch(err => {console.log(err.message, 'Error in DELETE axios call in Movie.js')})
   }
 
   useEffect(() => {
