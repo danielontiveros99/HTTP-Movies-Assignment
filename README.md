@@ -9,7 +9,6 @@
 - Run the server using `npm start`.
 - In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
 - Still inside the `client` folder run `npm start` to run the client application.
-
 ### Task 2: MVP
 
 #### Updating A Movie:

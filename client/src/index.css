@@ -57,13 +57,14 @@ body {
   position: absolute;
   top: 25px;
   right: 25px;
-  border: 1px solid grey;
+  border: 1px groove black;
   padding: 5px 10px;
   background-color: lightseagreen;
+  color: black;
 }
 .save-button:hover {
   background-color: green;
-  color: white;
+  color: #FEFEFE;
 }
 
 .home-button {
@@ -75,3 +76,36 @@ body {
   color: red;
   text-align: center;
 }
+
+/* my changes */
+
+.update-button{
+  position: absolute;
+  top: 75px;
+  right: 25px;
+  border: 1px groove black;
+  padding: 5px 10px;
+  background-color: blue;
+  color: #FEFEFE;
+}
+
+.update-button:hover {
+  background-color: lightskyblue;
+  color: black;
+}
+
+.delete-button{
+  position: absolute;
+  top: 125px;
+  right: 25px;
+  border: 1px groove black;
+  padding: 5px 10px;
+  background-color: red;
+  color: #FEFEFE;
+}
+
+.delete-button:hover {
+  background-color: palevioletred;
+  color: black;
+}
+
